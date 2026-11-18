@@ -1,9 +1,58 @@
 {
-  "engine_enabled": false,
+  "engine_enabled": true,
   "interstitial_every_n_actions": 8,
   "interstitial_every_n_actions_max": 12,
   "interstitial_min_interval_ms": 60000,
   "interstitial_min_watch_ms": 5000,
   "rewarded_min_watch_ms": 15000,
-  "creatives": []
+  "creatives": [
+    {
+      "id": "toycarecompanion_banner_1",
+      "format": "image",
+      "placements": ["banner"],
+      "image_url": "https://Vachek-hooves.github.io/10772-CraftTime_house_ad/media/banner_1.png",
+      "title": "",
+      "body": "",
+      "cta_text": "PLAY",
+      "bundle_id": "com.toycarecompanion",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toycarecompanion",
+      "weight": 1
+    },
+    {
+      "id": "toycarecompanion_slide_1",
+      "format": "image",
+      "placements": ["interstitial", "rewarded"],
+      "image_url": "https://Vachek-hooves.github.io/10772-CraftTime_house_ad/media/interstitial_1.png",
+      "title": "",
+      "body": "",
+      "cta_text": "PLAY",
+      "bundle_id": "com.toycarecompanion",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toycarecompanion",
+      "weight": 1
+    },
+    {
+      "id": "toycarecompanion_slide_2",
+      "format": "image",
+      "placements": ["interstitial", "rewarded"],
+      "image_url": "https://Vachek-hooves.github.io/10772-CraftTime_house_ad/media/interstitial_2.png",
+      "title": "",
+      "body": "",
+      "cta_text": "PLAY",
+      "bundle_id": "com.toycarecompanion",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toycarecompanion",
+      "weight": 1
+    },
+    {
+      "id": "toycarecompanion_slide_3",
+      "format": "image",
+      "placements": ["interstitial", "rewarded"],
+      "image_url": "https://Vachek-hooves.github.io/10772-CraftTime_house_ad/media/interstitial_3.png",
+      "title": "",
+      "body": "",
+      "cta_text": "PLAY",
+      "bundle_id": "com.toycarecompanion",
+      "store_url": "https://play.google.com/store/apps/details?id=com.toycarecompanion",
+      "weight": 1
+    }
+  ]
 }
